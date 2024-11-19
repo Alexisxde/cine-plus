@@ -18,8 +18,10 @@ export default function Navegation() {
 	return (
 		<header className='sticky top-0 z-50 mx-auto flex max-w-[1353px] items-center justify-between bg-neutral-800 px-6 py-4 text-neutral-50 lg:px-10'>
 			<div className='w-24'>
-				<a className='size-full text-lg font-bold' href='/'>
-					CINE+
+				<a
+					className='size-full bg-gradient-to-tl from-gray-600 to-neutral-50 bg-clip-text text-2xl font-bold text-transparent'
+					href='/'>
+					PELIS+
 				</a>
 			</div>
 			<form
