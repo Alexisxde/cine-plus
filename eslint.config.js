@@ -13,7 +13,6 @@ export default [
 	pluginReact.configs.flat.recommended,
 	{
 		rules: {
-			'@typescript-eslint/explicit-function-return-type': 'error',
 			'react/react-in-jsx-scope': 'off',
 			'no-console': 'error',
 			'no-label-var': 'error',
